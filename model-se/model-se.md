@@ -27,6 +27,18 @@ Verfeinert Semantik eines stereotypisierten Modellelements (z.b. mit OCL).
 
 
 # Modelltransformationen
+Ziel: Modell A durch Anwendung einer Transformation und mittels und zusätzlicher Information in Zielmodell B überführen. **Horizontale Transformation** transformiert das Modell inhaltlich. **Vertikale Transformation** wandelt zwischen Abstraktionsebenen um, zum Beispiel von PIM nach PSM. Es ist auch eine Umwandlung von Modellen nach Code möglich, der an sich selbst als Modell gesehen werden kann.
+
+**Deklarative Transformationssprachen** wandel anhand definierter Regeln um. **Imperative Transformationssprachen** wandeln anhand von sequenziellen Aktionen um.
+
+Codegenerierung hat folgende Vorteile:
+* Aufwand der manuellen Programmierung einsparen
+* Gleichbleibend hohe Qualität über alle Lösungen
+* Zentralisierter Wartungsaufwand
+* Erstellung mehrerer Lösungen in kurzer Zeit (Produktlinien)
+
+Allerdings ist die Generatorentwicklung aufwändig.
 
 
 # Design Patterns
+Design Patterns sind bewährte benannte Lösungen zu oft wiederauftretenden Design-Problemen. Ist ein Pattern modellbasiert spezifiziert, kann es automatisch angewandt werden.
