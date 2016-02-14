@@ -16,3 +16,12 @@ Eine **ISO 9001**-Zertifizierung bestätigt die Konformität des **Unternehmens-
 
 # Qualitätsprüfung
 Analytisches QM von Prozessen, Ergebnissen, Dokumenten oder der Software selbst.
+
+Testen erhöht indirekt:
+* **Qualität**, da Fehler(zustände) vor Auslieferung entdeckt und korrigiert werden können
+* **Prozessqualität**, da Fehler dokumentiert, analysiert und damit in Zukunft vermieden werden können
+* **Vertrauen** in Qualität des Systems, wenn wenige oder keine Fehler gefunden werden
+
+Frühes erfolgreiches Testen erfordert zwar initial mehr Aufwand, lohnt sich aber auf lange Sicht.
+
+Ein **Testfall** besteht aus einem Eingabewert, einem Soll-Ergebnis, und Vor- und Nachbedingungen. Sind Soll- und Ist-Verhalten verschieden, liegt eine Fehlerwirkung vor. Ein **Testorakel** ist eine Informationsquelle für Sollergebnisse, zum Beispiel ein bestehendes System ([Was ist ein Testorakel?](http://www.karteikarte.com/card/1317237/was-ist-ein-testorakel)).
