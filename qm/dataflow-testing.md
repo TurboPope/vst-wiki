@@ -19,6 +19,16 @@ Ein **DR-Weg** (Definition-Referenz-Weg) ist ein Weg, an dessen Anfang eine Vari
 # Alle Referenzen
 Eine Erweiterung von [Alle DR-Interaktionen](#alle-dr-interaktionen). Immer wenn von einem `REF`-Knoten mehrere Kanten ausgehen, müssen diese alle mit in den Testfluss dazugenommen werden.
 
+Beispiel:
+
+In diesem Fall wäre das Kriterium „alle DR-Interaktionen“ mit dem Weg `(A, B, C)` abgedeckt. Für „alle Referenzen“ benötigt man allerdings *zusätzlich* noch den Weg `(A, B, D)`, da aus Knoten `B` mit `REF(a)` zwei Kanten ausgehen, die abgedeckt werden müssen.
+
+![Flussdiagramm für alle Referenzen](alle-refs.png)
+
+Testdaten „alle DR-Interaktionen“: `{(6)}`
+
+Testdaten „alle Referenzen“: `{(6), (0)}`
+
 
 # Kontextüberdeckung
 *pls halp*
