@@ -9,7 +9,7 @@ Ein **Datenflussgraph** ist ein Kontrollflussgraph, bei dem jeder Knoten drei zu
 * **REF**: Menge der Variablen, die im Knoten referenziert werden
 
 # Alle Definitionen
-Jede Variable die definiert wird, wird auch einmal referenziert.
+Um dieses Kriterium zu erfüllen, muss jede Definition mindestens einmal referenziert werden.
 
 
 # Alle DR-Interaktionen
