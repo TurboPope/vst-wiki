@@ -17,7 +17,7 @@ Ein **DR-Weg** (Definition-Referenz-Weg) ist ein Weg, an dessen Anfang eine Vari
 
 
 # Alle Referenzen
-*dolan pls*
+Eine Erweiterung von [Alle DR-Interaktionen](#alle-dr-interaktionen). Immer wenn von einem `REF`-Knoten mehrere Kanten ausgehen, müssen diese alle mit in den Testfluss dazugenommen werden.
 
 
 # Kontextüberdeckung
