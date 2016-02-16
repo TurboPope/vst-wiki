@@ -1,12 +1,11 @@
 Jegliche automatische Verarbeitung von Modellen benötigt präzise Definition (des Ausführungsverhaltens). **Petrinetze** sind ein Ansatz für eine solche Modellierung.
 
-
 # Syntax
 Ein Petrinetz ist ein gerichteter Graph mit zwei Arten von Knoten, **Stellen** (Speichern von Informationen) und **Transitionen** (Verarbeitung von Informationen), und **Kanten**, die Stellen und Knoten alternierend mit einander verbinden.
 
 
 # Ausführung
-Als **Schalten** von Transitionen bezeichnet man das Übergeben einer Anzahl (es gelten Kapazitätsbeschränkungen) von **Marken** durch eine Transition von ihrer Vorgängerstelle zu ihrer Nachfolgerstelle. Eine Transition wird **aktiviert**, wenn sie die geforderte Menge an tokens erhalten kann und die Nachfolgerstelle die Tokens aufnehmen kann. Zur Ausführung werden alle aktiven Transitionen eine nach der anderen (Auswahl zufällig ¯\\_(ツ)_/¯ lol) iterativ aktiviert. Eine Folge von Schaltungen ist eine **Schaltfolge**.
+Als **Schalten** von Transitionen bezeichnet man das Übergeben einer Anzahl (es gelten Kapazitätsbeschränkungen) von **Marken** durch eine Transition von ihrer Vorgängerstelle zu ihrer Nachfolgerstelle. Eine Transition wird **aktiviert**, wenn sie die geforderte Menge an Tokens erhalten kann und die Nachfolgerstelle die Tokens aufnehmen kann. Transitionen mit 0 eingehenden Kanten generieren spontan Tokens und Transitionen mit 0 ausgehenden Kanten fressen sie auf. Zur Ausführung werden alle aktiven Transitionen eine nach der anderen (Auswahl zufällig ¯\\_(ツ)_/¯ lol) iterativ aktiviert. Eine Folge von Schaltungen ist eine **Schaltfolge**.
 
 Die Bedeutung eines Tokens hängt von der Stelle ab, an der es plaziert ist. Der globale Zustand des Netzes, also die Position aller Tokens, ist eine **Markierung**. Eine **tote Markierung** ist der Endzustands eines Netzes, bei dem keine Schaltungen mehr stattfinden können. Eine Markierung gilt als **erreichbar**, wenn es eine Schaltfolge gibt, die das Netz in diesen Zustand überführt. Die Menge aller erreichbaren Markierungen ist die **Erreichbarkeitsmenge**.
 
@@ -25,3 +24,8 @@ Eine Transition ist:
 * **Tot** wenn sie in keiner erreichbaren Markierung aktiviert
 
 Eine *Markierung* ist **tot**, wenn alle Transitionen tot sind (keine Transition ist aktivierbar, *alternative Definition zu oben*). *Es wird impliziert dass dies ein **Deadlock** ist.*
+
+
+# Simulation
+
+[Tapaal](http://www.tapaal.net/download/) ist ein ziemlich okayes Simulationsprogramm für Petrinetze. Es unterstützt keine Markenlimits für Knoten, funktioniert aber sonst gut.
