@@ -6,18 +6,13 @@ Softwaremetriken dienen als Indikator von Softwarequalität und für Priorisieru
 Gibt an, wie viele *unabhängige* Pfade (duplizierte Pfade ignorieren) in einem Kontrollflussgraphen existieren. Wird berechnet durch **McCabe-Formel**:
 
 ```
-c = edges - vertices + 1
+c = edges - vertices + p + 1
 ```
 
 * `c` Zyklomatische Komplexität
 * `edges` Die Anzahl der Kanten im Kontrollflussgraph
 * `vertices` Die Anzahl der Knoten im Kontrollflussgraph
-
-Bei mehreren Endpunkten wird die Formel um die Anzahl der Endpunkte `p` wie folgt erweitert:
-
-```
-c = edges - vertices + p + 1
-```
+* `p` Die Anzahl Endpunkte im Graph („unsichtbare” Kanten zurück zum Startpunkt, damit der Graph zyklisch ist).
 
 Äquivalent: Alle Verzeigungen zählen und 1 addieren. Switch-cases zählen auch jeweils als 1, aber pro Switch wird 1 abgezogen.
 
