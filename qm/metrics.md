@@ -3,7 +3,7 @@ Softwaremetriken dienen als Indikator von Softwarequalität und für Priorisieru
 
 # Zyklomatische Komplexität
 
-Gibt an, wie viele unabhängige Pfade in einem Kontrollflussgraphen existieren. Wird berechnet durch **McCabe-Formel**:
+Gibt an, wie viele *unabhängige* Pfade (duplizierte Pfade ignorieren) in einem Kontrollflussgraphen existieren. Wird berechnet durch **McCabe-Formel**:
 
 ```
 c = edges - vertices + 1
