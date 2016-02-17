@@ -29,3 +29,20 @@ CK ist eine objektorientierte Metriken-Suite, vorgeschlagen von **Chidamber & Ke
 * **Kopplung von Klassen** (CBO): Anzahl der Methoden und Variablen, die eine Klasse von einer anderen Klasse nutzt
 * **Reaktion einer Klasse** (RFC): *wat*
 * **Lack of Cohesion of Methods** (LCOM): *wat*
+
+
+# Weitere Metriken
+
+## Fan-in / Fan-out
+Fan-in einer Funktion X ist die Anzahl der Funktionen, die X aufrufen.
+
+Fan-out ist die Anzahl der Funktionen, die von X aufgerufen werden.
+
+## Länge der Bezeichner
+Maß über die durchschnittliche Länge von Bezeichnern, also die Namen von Variablen, Klassen, Methoden.
+
+## Tiefe der Verschachtlung
+Maß der Tiefe der Verschachtlung von if-Bedingungen im Programm.
+
+## Fog-Index
+Maß durchschnittlicher Länge von Wörtern und Sätzen im Dokument.
