@@ -16,6 +16,18 @@ Um dieses Kriterium zu erfüllen, muss jede Definition mindestens einmal referen
 Ein **DR-Weg** (Definition-Referenz-Weg) ist ein Weg, an dessen Anfang eine Variable definiert und an dessen Ende diese variable referenziert wird. Das Kriterium **Alle DR-Interaktionen** fordert, dass ein solcher Weg für jede Variable existiert, die definiert wird. Es fordert also in Erweiterung zu Alle Definitionen, dass die Referenz nicht nur existiert, sondern auch erreicht wird (für die Testfallmenge).
 
 
+# Alle k-DR-Interaktionen
+Eine normale DR-Interaktion ist eine 2-DR-Interaktion. Größere k „verfolgen” die originellen Werte durch Anweisungen hindurch.
+
+Beispiel:
+
+    A: read(a) | DEF(a)
+    B: b = a   | REF(a)
+    C: c = b   | REF(b)
+
+Dann ist A→B→C eine 3-DR-Interaktion, weil in Knoten C `a` indirekt über `b` referenziert wird.
+
+
 # Alle Referenzen
 Eine Erweiterung von [Alle DR-Interaktionen](#alle-dr-interaktionen). Immer wenn von einem `REF`-Knoten mehrere Kanten ausgehen, müssen diese alle mit in den Testfluss dazugenommen werden.
 
