@@ -21,7 +21,7 @@ Testfallauswahl orientiert sich an Kontrollfluss des Programms. Vorgehen:
 Alle Knoten werden mindestens ein Mal besucht. Testwirksamkeit: Verhältnis Anzahl besuchter Knoten zu Anzahl aller Knoten.
 
 
-# Zweigüberdeckung (C<sub>1</sub>)
+# Zweigüberdeckung/Entscheidungsüberdeckung (C<sub>1</sub>)
 Alle Kanten werden mindestens ein Mal besucht. Testwirksamkeit: Verhältnis Anzahl besuchter Kanten zu Anzahl aller Kanten.
 
 
