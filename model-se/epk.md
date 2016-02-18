@@ -1,6 +1,8 @@
 # Einführung
 > Ein Geschäftsprozess ist eine Menge logisch verknüpfter Einzeltätigkeiten (Aufgaben, Aktivitäten), die ausgeführt werden, um ein bestimmtes geschäftliches oder betriebliches Ziel zu erreichen. (*Quelle:* [Wikipedia](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsprozess))
 
+![Geschäftsprozesse](businessprocess.jpg)
+
 Es sollen Geschäftsprozesse modelliert werden. Die Notation soll domänenspezifisch sein und die Kommunikationslücke zwischen Fachabteilung und Softwareentwicklern überbrücken. Des weiteren soll sie die Automatisierung von Geschäftsprozessen unterstützen.
 
 # EPK Notation
