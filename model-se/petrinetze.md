@@ -64,7 +64,7 @@ Simulation eines Petrinetzes:
 
 * **Lebendig**: Markierung ist aus jeder erreichbaren Markierung *erreichbar*
 
-* **Tot**: Transitionen sind in der Markierung aktivierbar (*Deadlock* im Netz)
+* **Tot**: Keine transitionen sind in der Markierung aktivierbar (*Deadlock* im Netz)
 
 ## Eigenschaften des Netzes
 
