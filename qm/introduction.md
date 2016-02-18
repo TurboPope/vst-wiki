@@ -2,6 +2,23 @@
 Es ist aufgrund des Umfangs nicht sinnvoll jede mögliche Kombination von Eingaben für ein Programm oder eine Funktion zu testen. Zum realistischen Testen benötigen wir ein hohes Maß an Automatisierung und intelligente Werkzeugunterstützung.
 
 
+# Definitionen
+
+* **Validierung**: ob das System seinen Sinn erfüllt (richtigers System)
+* **Verifizierung**: ob das System seine Anforderungen erfüllt (richtige Realisierung)
+
+* **Fehler**: Abweichen von Ist- und Soll-Verhalten des Systems oder grobe nicht-Erfüllung einer Anforderung
+* **Mangel**: Unvollständige Erfüllung einer Erwartung oder Anforderung
+
+Eine **Fehlerhandlung (error)** einer Person führt zu einem **Fehlerzustand (fault)**, die eine **Fehlerwirkung (failure)** verursachen kann.
+
+Beispiel:
+
+* *Fehlerhandlung*: Jan vergisst, «secrecy» in seine Secure Dependencies zu schreiben
+* *Fehlerzustand*: UMLSec greift nicht und die Daten sind nicht geschützt
+* *Fehlerwirkung*: Der Standardangreifer kommt und hört sensible Daten ab
+
+
 # Qualitätslenkung
 Konstruktives QM duch Normen, Standarts, Projektleitung, Software-technik, Erfahrungsaustausch, Ausbildungsmaßnahmen und cetera.
 
