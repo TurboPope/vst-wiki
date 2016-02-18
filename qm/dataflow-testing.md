@@ -25,7 +25,9 @@ Beispiel:
     B: b = a   | REF(a)
     C: c = b   | REF(b)
 
-Dann ist A→B→C eine 3-DR-Interaktion, weil in Knoten C `a` indirekt über `b` referenziert wird.
+Dann ist A→B→C eine 3-DR-Interaktion, weil in Knoten C `a` indirekt über `b` referenziert wird. Die 3 liegt daran, dass es 3 relevante Interaktionen (DEF(a), REF(a), REF(b)) gibt.
+
+Größere k führen zur Verfolgung über mehr REFs hinweg. Achtung, laut Dausi ist k-DR ⊈ (k+1)-DR, die Wege müssen also um exakt k Ecken gehen.
 
 
 # Alle Referenzen
