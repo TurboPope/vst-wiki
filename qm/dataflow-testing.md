@@ -44,13 +44,17 @@ Testdaten „alle DR-Interaktionen“: `{(6)}`
 Testdaten „alle Referenzen“: `{(6), (0)}`
 
 
+# Alle Berechnungs-/Entscheidungs-Referenzen
+Wie [Alle Referenzen](#alle-referenzen), aber es werden entweder nur Berechnugsreferenzen respektive Entscheidungsreferenzen beachtet.
+
+* **B-Referenz/c-use**: Verwendung in einer **B**erechnung (**c**alculation), z.B. Arithmetik
+
+* **E-Referenz/p-use**: Verwendung in einer **E**ntscheidung (**p**redicate), z.B. if-Bedingung
+
+
 # Kontextüberdeckung
 *pls halp*
 
 
 # Alle DR-Wege
 *durr*
-
-
-# Alle Berechnungs-/Entscheidungs-Referenzen
-Unterscheidung, ob eine Referenz in einer Berechnung oder in einer Entscheidung stattfindet.
