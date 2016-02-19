@@ -14,7 +14,8 @@
 | Statische Metriken                                                    | mittel             | nein       |
 | Kontrollflussgraphen zeichnen                                         | hoch               | nein       |
 | Flussdiagramm zeichnen                                                | niedrig            | ja         |
-| Geschäftmodellqualitätsdings                                          |                    | ja         |
+| Geschäftmodellqualitätsdings                                          |                    |            |
+| Integrationstesttypen                                                 |                    |            |
 
 * **Thema**: Was in der Klausur gefragt werden oder dran kommen könnte
 * **Wahrscheinlichkeit**: Wie wahrscheinlich wird das Thema eingeschätzt? Einträge in der Liste implizieren bereits eine gewisse Wahrscheinlichkeit, das ist nur um die Einträge unter sich noch einmal zu ranken.
